@@ -1,0 +1,8 @@
+nav {
+    width: auto;
+    max-width: 500px;
+    background-color: salmon;
+    margin: 16px auto;
+    position: absolute;
+    top: 115px;
+}
