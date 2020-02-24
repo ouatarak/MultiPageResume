@@ -6,3 +6,9 @@ nav {
     position: absolute;
     top: 115px;
 }
+body {
+    background-image: url('./img/home.jpg');
+    background-size: cover;    /* Cover the whole element.*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: ;
