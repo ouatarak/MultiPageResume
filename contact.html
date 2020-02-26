@@ -1,72 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-    <title>CONTACT ME</title>
-    head>
-    <title>Center an Image using text align center</title>
-        <style>
-        .img-container {text-align: right; width="120"}
-    </style>
-  </head>
-  <body>
-    <div class="img-container"> <!-- Block parent element -->
-      <img src="./img/mypicture.jpg" alt="">
-    </div>
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<title>CONTACT ME</title>
+    <h1>Contact ME</h1>
+    <br>
+    <body>
+        <p>This is my personal multi-page-resume project.</p> 
+        <p>Please be free to provide your information in order to contact me.</p>
+    </body>
+    <br>
+    <h2>Contact Information</h2>
+    <br>
+  
+<!--title>Center an Image using text align center</title>
+    <style>
+    .img-container {text-align: right; width="120"}
+</style>
+</head>
+<body>
+<div class="img-container">
+    <img src="./img/mypicture.jpg" alt="">
+</div-->
+    <form action="submit.php" method="POST">
+        <label for="first-name">
+            First Name
+            <input type="text" name="first-name">
+        </label>
+        <br>
+        <br>
+        <label for="last-name">
+            Last Name
+            <input type="text" name="last-name">
+        </label>
+        <br>
+        <br>
+        <label for="email-address">
+            Email Address
+            <input type="text" name="email-address">
+        </label>
+        <br><br>
+        <label for="phone-number">
+            Phone Number
+            <input type="text" name="phone-number">
+        </label>
+    </form>
+    <br>
+    <br>
+    <h2>Navigation</h2>
+    <br>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="experience.html">EXPERIENCE</a></li>
+            <li><a href="education.html">EDUCATION</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <h2>Social Media Links</h2>
+        <ul id="social-media-links">
+            <li>
+                <!-- Always use the target attribute with "_blank" as the value when writing EXTERNAL links. Your website will stay in its original browser tab, and the new link will open in a blank / fresh browser tab. -->
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                    <!-- Hiding text in this way leaves it available to search engine and screen-readers! It is always good to have important content readable by those that need it: -->
+                    <span class="screen-reader-text">Facebook</span> 
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                    <span class="screen-reader-text">Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://LinkedIn.com">
+                    <i class="fab fa-linkedin"></i>
+                    <span class="screen-reader-text">Linkedin</span>
+                </a>
+            </li>
+        </ul>
+        <form action="submit.php" method="post">
+            <textarea name="message" cols="100" rows="30" id="Comments and Reviews">
+               Please Post Your Comments and Reviews
+            </textarea>
+        </form>
+    </footer>
   </body>
-</html>
-</head>
-    <h1>CONTACT ME</h1>
-        <body>
-            <html>
-                <head>
-                    <body>
-                        <h1>Contact Information</h1>
-                        <form action="submit.php" method="POST">
-                            <label for="first-name">
-                                Your First Name
-                                <input type="text" name="first-name">
-                            </label>
-                            <br>
-                            <br>
-                            <label for="last-name">
-                                Your Last Name
-                                <input type="text" name="last-name">
-                            </label>
-                            <br>
-                            <br>
-                            <label for="email-address">
-                                Your Email Address
-                                <input type="text" name="email-address">
-                            </label>
-                            <br><br>
-                            <label for="phone-number">
-                                Your Phone Number
-                                <input type="text" name="phone-number">
-                            </label>
-                        </form>
-                        </h1>
-                        <body>
-                            <p>
-                                This website even has my picture:
-                                <img src="./img/mypicture.jpg" alt="mypicture." title="mypicture." width="150">
-                            </p>
-                        </body>    
-                    </body>
-                    <br>
-                    <h2>Navigation</h2>
-                    <body>
-                        <nav>
-                            <ul>
-                                <li><a href="home.html">HOME</a></li>
-                                <li><a href="experience.html">EXPERIENCE</a></li>
-                                <li><a href="education.html">EDUCATION</a></li>
-                            </ul>
-                        </nav>
-                    </body>
-                </head>    
-            </html>
-        </body>    
-    </h1>
-</head>
-</html>
+  </html>
