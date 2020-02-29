@@ -43,7 +43,7 @@ body {
 }
 
 #social-media-links .fab {
-    color: black ( 100, 100, 100, 1 ); /* RGBA - the "a" stands for ALPHA channel. */
+    color: black ( 100, 100, 100, 100 ); /* RGBA - the "a" stands for ALPHA channel. */
     /* For alpha: 1 =
 }
 
@@ -59,4 +59,9 @@ body {
 
 #Comments and Reviews {
     background-color: red;
+} 
+
+textarea {
+    font-weight: bold;
+    font-size: medium;
 }
